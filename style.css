@@ -1,0 +1,52 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 400px;
+    height: 150px;
+    background-color: aliceblue;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+}
+#hex-code-text {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+@media (max-width: 600px){
+    main {
+        width: 250px;
+        height: 200px;
+    }
+}
